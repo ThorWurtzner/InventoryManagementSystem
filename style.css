@@ -1,0 +1,112 @@
+
+#navBtn {
+    -fx-background-color: none;
+    -fx-min-width: 140px;
+    -fx-min-height: 45px;
+    -fx-background-radius: 0px 10px 10px 0px;
+    -fx-font-size: 16px;
+    -fx-alignment: "CENTER-LEFT";
+}
+
+#navBtn:hover {
+    -fx-background-color: #edd28e;
+    -fx-cursor: "hand";
+}
+
+#navSection {
+    -fx-background-color: #FFF;
+    -fx-padding: 20px;
+}
+
+#contentSection {
+    -fx-background-color: #F5F6FA;
+}
+
+#opretWhisky {
+    -fx-background-color: #e8b06c;
+    -fx-min-width: 140px;
+    -fx-min-height: 45px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 16px;
+    -fx-alignment: "CENTER";
+}
+
+#opretWhisky:hover {
+    -fx-background-color: #edd28e;
+    -fx-cursor: "hand";
+}
+
+#paneTitle {
+    -fx-font-size: 20px;
+    -fx-padding: 0 0 30px 0;
+}
+
+.opretBtn {
+    -fx-background-color: #edd28e;
+    -fx-min-width: 140px;
+    -fx-min-height: 40px;
+    -fx-background-radius: 0px 10px 10px 0px;
+    -fx-font-size: 14px;
+    -fx-alignment: "CENTER";
+    -fx-translate-y: 30px;
+}
+
+.opretBtn-noTranslate {
+    -fx-background-color: #edd28e;
+    -fx-min-width: 140px;
+    -fx-min-height: 40px;
+    -fx-background-radius: 0px 10px 10px 0px;
+    -fx-font-size: 14px;
+    -fx-alignment: "CENTER";
+}
+
+.opretBtn:hover {
+    -fx-opacity: 0.9;
+    -fx-cursor: "hand";
+}
+
+.opretBtn-noTranslate:hover {
+    -fx-opacity: 0.9;
+    -fx-cursor: "hand";
+}
+
+.text-field {
+    -fx-min-width: 250px;
+    -fx-min-height: 35px;
+    -fx-background-radius: 0px 10px 10px 0px;
+}
+
+.inputLabel {
+    -fx-min-width: 105px;
+    -fx-font-size: 13px;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #edd28e;
+    -fx-text-fill: black;
+}
+
+.list-view-template {
+    -fx-min-width: 330px;
+    -fx-min-height: 450px;
+    -fx-max-height: 450px;
+}
+
+.list-view-short {
+    -fx-min-width: 330px;
+    -fx-max-height: 208px;
+}
+
+.date-picker > .text-field {
+    -fx-background-radius: 0px;
+}
+
+#lagerBox {
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #e8b06c;
+    -fx-padding: 0 0 20px 0;
+}
+
+#lagerComboBox {
+    -fx-background: "white";
+}
